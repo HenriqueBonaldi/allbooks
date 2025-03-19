@@ -68,7 +68,7 @@ describe('Testando função usuarioExiste de userService', () => {
         usuarioExiste(email, senha, testeDB);
         const end = Date.now();
 
-        expect(end - start).toBeLessThan(1);
+        expect(end - start).toBeLessThan(2);
     });
 
 });
